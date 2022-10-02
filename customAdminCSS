@@ -1,0 +1,101 @@
+li.uip-margin-remove.blueLoginBtn {
+  padding:6px;
+  background-color:#216aa4;
+  color:#ffffff !important;
+  border-top: 1px solid #174e79;
+  border-right: 2px solid #174e79;
+  border-bottom: 2px solid #174e79;
+  border-left: 1px solid #174e79;
+ }
+ a.blueLoginBtn {
+     color: #fff !important;
+ }
+li.uip-margin-remove.blueLoginBtn:hover {
+     color: #ff0000 !important;
+ }
+/************************ METABOX *************/
+.rwmb-group-wrapper > .rwmb-label {
+    display: none !important;
+}
+.rwmb-meta-box > .rwmb-field:first-of-type {
+    padding-top: 12px !important;
+}
+.rwmb-heading-wrapper h4 {
+    font-size: 1.1rem !important;
+	background: #2368A3;
+	color:#fff;
+    border: unset !important;
+    padding: 0.5rem 0.4rem !important;
+    margin: 0;
+}
+.rwmb-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 0;
+    align-items: start;
+}
+.rwmb-heading-wrapper.displayNone h4 {
+     display: none;
+ }
+
+.rwmb-group-title-wrapper {
+    display: block !important;
+    border-bottom: 1px dashed #8d8b8b !important;
+}
+.rwmb-group-wrapper group-title.rwmb-group-collapsible {
+	padding-top: 1.5em !important;
+}
+.rwmb-label > .description {
+    padding-right: 1em !important;
+}
+
+.important-message {
+	font-size: 1rem;
+	padding: 0.5rem !important;
+    background-color: #fbff03;
+    color: #7d7d7d;
+    border: 0.3em double #ffb900;
+}
+/* Set Fullwidth On SEO Page Type Boxes */
+.rwmb-button-input-list {
+    width: 100%;
+}
+.warning-notice, .warning-message {
+	font-size:1rem;
+	background-color: #ff0000b8;
+    padding: 0.5rem !important;
+    border: double 0.3em #fff;
+    color: #fff;
+}
+.rwmb-field.rwmb-text-wrapper.oneupCustomClassFields {
+    background-color: rgb(255 255 255 / 25%);
+    padding: 0.5em;
+    border: 0.15em dotted #565454;
+}
+.oneupCustomClassFields input {
+    background-color: rgb(79 148 212);
+    color: #369d62;
+}
+.oneupCustomClassFields input {
+    background-color: rgb(237 244 251);
+    border: 0.15em dotted #e4e4e4;
+}
+.rwmb-field.rwmb-text-wrapper.oneupCustomClassFields:before {
+    content: "!! ACSS CLASSES ONLY !!";
+	color: #2169a4;
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: -1.3rem;
+    font-weight: 900;
+}
+.rwmb-divider-wrapper hr {
+    flex: 1;
+    border: none;
+    border-top: 1px dashed #646970;
+	visibility: visible !important;
+}
+.rwmb-meta-box {
+    padding: 1em;
+}
